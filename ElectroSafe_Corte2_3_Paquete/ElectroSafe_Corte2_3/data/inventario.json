@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ACC-001",
+    "categoria": "Accesorio",
+    "nombre": "Lápiz monopolar con control manual",
+    "cantidad": 1,
+    "estado": "Por inspeccionar",
+    "serial": "",
+    "observaciones": ""
+  },
+  {
+    "id": "ACC-002",
+    "categoria": "Accesorio",
+    "nombre": "Pedal monopolar (Cut/Coag)",
+    "cantidad": 1,
+    "estado": "Por inspeccionar",
+    "serial": "",
+    "observaciones": ""
+  },
+  {
+    "id": "ACC-003",
+    "categoria": "Accesorio",
+    "nombre": "Pedal bipolar",
+    "cantidad": 1,
+    "estado": "Por inspeccionar",
+    "serial": "",
+    "observaciones": ""
+  },
+  {
+    "id": "ACC-004",
+    "categoria": "Accesorio",
+    "nombre": "Placa/electrodo de retorno compatible con REM",
+    "cantidad": 1,
+    "estado": "Por inspeccionar",
+    "serial": "",
+    "observaciones": ""
+  },
+  {
+    "id": "ACC-005",
+    "categoria": "Cable",
+    "nombre": "Cable de alimentación",
+    "cantidad": 1,
+    "estado": "Por inspeccionar",
+    "serial": "",
+    "observaciones": ""
+  }
+]

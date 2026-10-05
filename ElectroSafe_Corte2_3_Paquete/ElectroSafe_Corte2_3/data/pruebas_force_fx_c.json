@@ -1,0 +1,111 @@
+{
+  "note": "Do not treat maximum power settings as pass/fail calibration limits. The service manual's periodic safety check specifies test settings, loads, and measured RMS currents.",
+  "max_settings": [
+    {
+      "mode": "Pure Cut",
+      "max_w": 300
+    },
+    {
+      "mode": "Low Cut",
+      "max_w": 300
+    },
+    {
+      "mode": "Blend",
+      "max_w": 200
+    },
+    {
+      "mode": "Desiccate",
+      "max_w": 120
+    },
+    {
+      "mode": "Fulgurate",
+      "max_w": 120
+    },
+    {
+      "mode": "Bipolar",
+      "max_w": 70
+    }
+  ],
+  "periodic_output_tests": [
+    {
+      "group": "Monopolar Cut",
+      "load_ohm": 300,
+      "setting_w": 75,
+      "modes": [
+        "Pure Cut",
+        "Low Cut",
+        "Blend"
+      ],
+      "expected_rms_current_mA": "499 ± 38"
+    },
+    {
+      "group": "Monopolar Coag",
+      "load_ohm": 500,
+      "setting_w": 30,
+      "modes": [
+        "Desiccate",
+        "Fulgurate",
+        "LCF Fulgurate",
+        "Spray"
+      ],
+      "expected_rms_current_mA": "245 ± 19"
+    },
+    {
+      "group": "Bipolar",
+      "load_ohm": 100,
+      "setting_w": null,
+      "modes": [
+        "Bipolar modes tested per manual"
+      ],
+      "expected_rms_current_mA": "315 ± 24"
+    }
+  ],
+  "rem_tests": [
+    {
+      "resistance_ohm": 120,
+      "expected": "REM indicator green"
+    },
+    {
+      "resistance_ohm": "135 ± 5",
+      "expected": "REM alarm"
+    },
+    {
+      "resistance_ohm": 60,
+      "expected": "REM indicator green"
+    },
+    {
+      "resistance_ohm": 100,
+      "expected": "REM alarm"
+    },
+    {
+      "resistance_ohm": 30,
+      "expected": "REM indicator green"
+    },
+    {
+      "resistance_ohm": 10,
+      "expected": "REM indicator green"
+    },
+    {
+      "resistance_ohm": 3,
+      "expected": "REM alarm"
+    },
+    {
+      "resistance_ohm": "3→24 with connector without pin",
+      "expected": "REM alarm"
+    }
+  ],
+  "leakage": [
+    {
+      "test": "Low-frequency leakage, normal condition",
+      "limit": "< 10 µA"
+    },
+    {
+      "test": "Low-frequency leakage, single-fault ground open",
+      "limit": "≤ 50 µA"
+    },
+    {
+      "test": "Leakage test described with mains voltage through 120 kΩ",
+      "limit": "≤ 20 µA"
+    }
+  ]
+}

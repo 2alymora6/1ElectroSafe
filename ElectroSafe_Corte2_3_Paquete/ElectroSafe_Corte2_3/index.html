@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Electro Safe — Force FX-C</title>
+<link rel="stylesheet" href="css/app.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://unpkg.com/html5-qrcode"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+<header><div><strong>Electro Safe</strong><span>Gestión biomédica · Valleylab Force FX-C</span></div>
+<nav><button data-view="inicio">Inicio</button><button data-view="hoja">Hoja de vida</button><button data-view="inventario">Inventario</button><button data-view="mantenimiento">Mantenimiento</button><button data-view="checklist">Checklist</button><button data-view="dashboard">Dashboard</button><button data-view="ia">Asistente IA</button><button data-view="reportes">Reportes</button></nav></header>
+<main>
+<section id="inicio" class="view active"><div class="hero"><h1>Plataforma inteligente para gestión y mantenimiento</h1><p>Prototipo de Corte 2 y 3. Los registros se guardan localmente en el navegador para la demostración.</p><div class="cards"><article><b>Equipo</b><span id="homeEquipo"></span></article><article><b>Estado</b><span id="homeEstado"></span></article><article><b>Checklist</b><span id="homeChecklist"></span></article><article><b>Historial</b><span id="homeHistorial"></span></article></div></div></section>
+
+<section id="hoja" class="view"><h2>Hoja de vida digital</h2><form id="equipoForm" class="grid"></form><button id="saveEquipo">Guardar hoja de vida</button><div class="qrbox"><div id="qr-reader"></div><button id="startQr">Abrir lector QR</button><div id="qrResult"></div></div></section>
+
+<section id="inventario" class="view"><h2>Inventario de accesorios</h2><p>Registra existencia, estado, serial y observaciones. No diligencies cantidades no verificadas.</p><div id="inventoryTable"></div><button id="addInventory">Agregar elemento</button></section>
+
+<section id="mantenimiento" class="view"><h2>Registro de mantenimiento</h2><form id="maintForm" class="grid">
+<label>Tipo<select name="tipo"><option>Preventivo</option><option>Correctivo</option><option>Predictivo</option></select></label>
+<label>Fecha<input name="fecha" type="date" required></label><label>Técnico<input name="tecnico" required></label>
+<label>Hallazgo<textarea name="hallazgo"></textarea></label><label>Acción realizada<textarea name="accion"></textarea></label>
+<label>Estado final<select name="estado"><option>Operativo</option><option>Operativo con observaciones</option><option>Fuera de servicio</option></select></label>
+</form><button id="saveMaint">Guardar mantenimiento</button><div id="history"></div></section>
+
+<section id="checklist" class="view"><h2>Checklist interactivo</h2><div id="checklistBox"></div><button id="saveChecklist">Guardar checklist</button></section>
+
+<section id="dashboard" class="view"><h2>Dashboard</h2><div class="metrics"><article><b>Disponibilidad</b><strong id="availability">0%</strong></article><article><b>MTBF</b><strong id="mtbf">0 h</strong></article><article><b>MTTR</b><strong id="mttr">0 h</strong></article><article><b>Cumplimiento PM</b><strong id="pm">0%</strong></article></div><canvas id="maintChart"></canvas><p class="small">Los indicadores son calculados a partir de registros ingresados. No se deben presentar como datos clínicos reales si no provienen del historial del equipo.</p></section>
+
+<section id="ia" class="view"><h2>Asistente técnico IA — RAG documental</h2><p>Modo demostración: búsqueda local sobre la base documental. La respuesta se limita a los registros cargados y puede indicar “no encontrado”.</p><div id="chat"></div><form id="chatForm"><input id="question" placeholder="Ej.: ¿Qué significa la alarma 212?" required><button>Consultar</button></form></section>
+
+<section id="reportes" class="view"><h2>Reporte técnico</h2><p>Genera un PDF con la hoja de vida, resumen del checklist y mantenimientos registrados. Los resultados de mediciones deben ser diligenciados por el técnico; el sistema no inventa mediciones.</p><button id="pdfBtn">Generar PDF</button><div id="reportPreview"></div></section>
+</main>
+<script src="js/app.js"></script>
+</body></html>

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "kb1",
+    "title": "Autochequeo",
+    "keywords": [
+      "self-test",
+      "autochequeo",
+      "POST",
+      "encendido",
+      "alarm"
+    ],
+    "answer": "El encendido inicia un autochequeo interno. El manual indica verificar indicadores, displays, tonos y que el autochequeo termine correctamente antes de utilizar el generador. Si falla, aparece un número de alarma y normalmente el generador queda deshabilitado."
+  },
+  {
+    "id": "kb2",
+    "title": "REM",
+    "keywords": [
+      "REM",
+      "electrodo neutro",
+      "retorno",
+      "resistencia"
+    ],
+    "answer": "La verificación REM del manual usa un enchufe REM y una caja de resistencias. Se comprueba indicador verde y alarmas en puntos de resistencia definidos por el procedimiento del fabricante."
+  },
+  {
+    "id": "kb3",
+    "title": "Prueba de salida monopolar",
+    "keywords": [
+      "salida",
+      "cut",
+      "pure",
+      "blend",
+      "desiccate",
+      "fulgurate",
+      "300 ohm",
+      "500 ohm"
+    ],
+    "answer": "En la verificación periódica, el manual usa 300 Ω para los modos de corte a 75 W y 500 Ω para coagulación a 30 W. El criterio registrado es corriente RMS medida con transformador de corriente y voltímetro True RMS, no simplemente la potencia máxima del modo."
+  },
+  {
+    "id": "kb4",
+    "title": "Seguridad eléctrica",
+    "keywords": [
+      "fuga",
+      "leakage",
+      "IEC 60601-1",
+      "IEC 601-2-2",
+      "tierra"
+    ],
+    "answer": "El manual incluye comprobación de corriente de fuga de baja frecuencia, corriente de fuga de alta frecuencia y resistencia de tierra antes del retorno a uso clínico. Los límites deben registrarse desde el procedimiento correspondiente y no deben sustituirse por valores genéricos."
+  },
+  {
+    "id": "kb5",
+    "title": "Alarmas",
+    "keywords": [
+      "error",
+      "alarma",
+      "código",
+      "alarm"
+    ],
+    "answer": "Las alarmas del Force FX-C se muestran como números en el display Cut y deshabilitan el generador hasta corregir la condición. El asistente debe responder usando la tabla del manual y evitar inventar diagnósticos."
+  }
+]

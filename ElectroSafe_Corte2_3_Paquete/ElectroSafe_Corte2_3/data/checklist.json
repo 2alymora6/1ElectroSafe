@@ -1,0 +1,177 @@
+[
+  {
+    "id": "F01",
+    "grupo": "Inspección física",
+    "item": "Chasis y paneles sin daños visibles",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "F02",
+    "grupo": "Inspección física",
+    "item": "Conectores de accesorios sin obstrucciones o daño visible",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "F03",
+    "grupo": "Inspección física",
+    "item": "Receptáculo de electrodo de retorno sin pines rotos u obstrucciones",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "F04",
+    "grupo": "Inspección física",
+    "item": "Pedal(es) y conectores sin daño visible",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "F05",
+    "grupo": "Inspección física",
+    "item": "Cable de alimentación sin daño visible",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "P01",
+    "grupo": "Autochequeo",
+    "item": "Al encender, se iluminan indicadores y displays del panel",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "P02",
+    "grupo": "Autochequeo",
+    "item": "Se escuchan los tonos de activación/autochequeo correspondientes",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "P03",
+    "grupo": "Autochequeo",
+    "item": "Autochequeo finaliza correctamente antes de usar el equipo",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "R01",
+    "grupo": "REM",
+    "item": "REM: con 120 ohm se observa indicador verde",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "R02",
+    "grupo": "REM",
+    "item": "REM: alarma a 135 ± 5 ohm",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "R03",
+    "grupo": "REM",
+    "item": "REM: con 60 ohm se observa indicador verde",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "R04",
+    "grupo": "REM",
+    "item": "REM: alarma a 100 ohm",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "R05",
+    "grupo": "REM",
+    "item": "REM: con 30 ohm se observa indicador verde",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "R06",
+    "grupo": "REM",
+    "item": "REM: con 10 ohm se observa indicador verde",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "R07",
+    "grupo": "REM",
+    "item": "REM: alarma a 3 ohm",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "R08",
+    "grupo": "REM",
+    "item": "Conector sin pin: alarma al aumentar de 3 a 24 ohm",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "O01",
+    "grupo": "Salida RF",
+    "item": "Registrar prueba de salida en modo Pure Cut con carga de 300 ohm",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "O02",
+    "grupo": "Salida RF",
+    "item": "Registrar prueba de salida en modo Low Cut con carga de 300 ohm",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "O03",
+    "grupo": "Salida RF",
+    "item": "Registrar prueba de salida en modo Blend con carga de 300 ohm",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "O04",
+    "grupo": "Salida RF",
+    "item": "Registrar prueba de salida en Desiccate con carga de 500 ohm",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "O05",
+    "grupo": "Salida RF",
+    "item": "Registrar prueba de salida en Fulgurate con carga de 500 ohm",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "O06",
+    "grupo": "Salida RF",
+    "item": "Registrar prueba de salida bipolar con carga de 100 ohm",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "E01",
+    "grupo": "Seguridad eléctrica",
+    "item": "Registrar corriente de fuga de baja frecuencia según procedimiento del manual",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "E02",
+    "grupo": "Seguridad eléctrica",
+    "item": "Registrar corriente de fuga de alta frecuencia según procedimiento del manual/IEC aplicable",
+    "resultado": "",
+    "observacion": ""
+  },
+  {
+    "id": "E03",
+    "grupo": "Seguridad eléctrica",
+    "item": "Registrar resistencia de tierra según procedimiento de verificación",
+    "resultado": "",
+    "observacion": ""
+  }
+]

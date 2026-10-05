@@ -1,0 +1,452 @@
+[
+  {
+    "code": 2,
+    "description": "Feedback microcontroller failed to power up and initialize RAM in time allotted.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 3,
+    "description": "Feedback microcontroller failed to checksum battery-backed RAM data in dual-port RAM in time allotted.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 5,
+    "description": "Main microcontroller unable to access FEEDBACK_SEM semaphore.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 6,
+    "description": "Main microcontroller unable to access ECON_SEM semaphore.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 7,
+    "description": "Main microcontroller unable to access KEY_ACTIVE_SEM semaphore.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 11,
+    "description": "Internal diagnostics: invalid activated power, function, mode, or key request mode echoed by feedback microcontroller.",
+    "action": "Refer to Correcting IC U6 Malfunctions; if indicated, also IC U3 procedure."
+  },
+  {
+    "code": 13,
+    "description": "Main microcontroller unable to access GEN_SEM semaphore.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 14,
+    "description": "Internal diagnostics: calibration data checksum error on main microcontroller.",
+    "action": "Refer to Correcting IC U3 Malfunctions."
+  },
+  {
+    "code": 16,
+    "description": "Diagnostics/microcontroller malfunction: T_ON average test failed.",
+    "action": "Calibrate the ECON factor; if the alarm reappears, follow the manual troubleshooting procedure."
+  },
+  {
+    "code": 17,
+    "description": "Isns and/or Vsns voltage detected without activation.",
+    "action": "Do not attempt to use the generator; record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 18,
+    "description": "REM circuit failure: REM oscillator frequency outside acceptable operating range.",
+    "action": "Follow the manual troubleshooting procedure for the REM circuit."
+  },
+  {
+    "code": 19,
+    "description": "Overvoltage detected on +5 V supply.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 30,
+    "description": "Software malfunction: audio_state value outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 31,
+    "description": "Software malfunction: invalid alarm number.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 32,
+    "description": "Software malfunction: alarm_state value outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 40,
+    "description": "Software malfunction: selection_state[button_num] value outside state range.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 60,
+    "description": "Software malfunction: which_display value outside state range.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 61,
+    "description": "Software malfunction: which_led value outside state range.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 62,
+    "description": "Software malfunction: key_req_mode value outside state range.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 63,
+    "description": "Software malfunction: direction value outside state range.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 64,
+    "description": "Software malfunction: msg.action_code value outside state range.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 65,
+    "description": "Software malfunction: flash_state value outside state range.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 66,
+    "description": "Software malfunction: unable to find alarm number to display.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 67,
+    "description": "Internal diagnostics: settings data may be corrupted.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 68,
+    "description": "Main microcontroller unable to access GEN_SEM semaphore.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 81,
+    "description": "Internal component malfunction: optoisolator test failed.",
+    "action": "Do not attempt to use the generator; record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 100,
+    "description": "Software malfunction: rem_update_state value outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 101,
+    "description": "Software malfunction: rem_pad_state value outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 102,
+    "description": "Software malfunction: rem_state value in re_rem_control() outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 103,
+    "description": "Software malfunction: rem_state value in re_non_rem_control() outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 104,
+    "description": "Software malfunction: rem_flash_state value outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 105,
+    "description": "Software malfunction: rem_led_state value outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 110,
+    "description": "Software malfunction: cal_state value in ca_generator_setup() outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 111,
+    "description": "Software malfunction: cal_state value in ca_clock_date_setup() outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 112,
+    "description": "Software malfunction: cal_mode value in ca_clock_date_setup() outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 113,
+    "description": "Software malfunction: cal_state value in ca_clock_time_setup() outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 114,
+    "description": "Software malfunction: cal_mode value in ca_clock_time_setup() outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 115,
+    "description": "Software malfunction: cal_state value in ca_coag_leakage_cal() outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 116,
+    "description": "Software malfunction: cal_state value in caecon_cal() outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 117,
+    "description": "Software malfunction: econ_cal state value outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 118,
+    "description": "Software malfunction: cal_state value in ca_rem_cal() outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 119,
+    "description": "Software malfunction: rem_cal_state value outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 120,
+    "description": "Calibration malfunction: calibration value(s) outside acceptable range.",
+    "action": "Repeat the failing calibration step; if the alarm reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 122,
+    "description": "Open circuit REM sense failure.",
+    "action": "Repeat the failing calibration step; if the alarm reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 123,
+    "description": "Main microcontroller unable to access GEN_SEM semaphore.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 124,
+    "description": "Main microcontroller unable to access FEEDBACK_SEM semaphore.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 125,
+    "description": "Main microcontroller unable to access ECON_SEM semaphore.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 126,
+    "description": "Main microcontroller unable to access KEY_ACTIVE_SEM semaphore.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 151,
+    "description": "Master microcontroller unable to access GEN_SEM semaphore.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 154,
+    "description": "Main microcontroller unable to access FEEDBACK_SEM semaphore.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 161,
+    "description": "Dosage error while generator was activated; Vsns and Isns stay the same or decrease while ECON increases consistently for about 150 ms.",
+    "action": "Do not attempt to use the generator; record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 163,
+    "description": "Dosage error while activating a coag mode.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": "164-166",
+    "description": "Dosage error while activating a bipolar mode or a cut mode.",
+    "action": "Repeat the failing calibration step; if the number reappears, record it and contact the Valleylab service center."
+  },
+  {
+    "code": 170,
+    "description": "Watchdog malfunction: correct value not sent from feedback microcontroller.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 171,
+    "description": "Watchdog malfunction: correct value not sent from main microcontroller.",
+    "action": "Refer to Correcting IC U3 Malfunctions."
+  },
+  {
+    "code": 172,
+    "description": "Watchdog malfunction: main microcontroller unable to access watchdog semaphore.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 173,
+    "description": "Watchdog malfunction: feedback microcontroller unable to access watchdog semaphore.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 174,
+    "description": "Software malfunction: which_errors value outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 180,
+    "description": "Internal diagnostics: main microcontroller WSI RAM check failed.",
+    "action": "Refer to Correcting IC U3 Malfunctions."
+  },
+  {
+    "code": 181,
+    "description": "Internal diagnostics: feedback microcontroller WSI RAM check failed.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 182,
+    "description": "Internal diagnostics: main microcontroller dual-port RAM check failed.",
+    "action": "Refer to Correcting IC U3 Malfunctions."
+  },
+  {
+    "code": 183,
+    "description": "Internal diagnostics: main microcontroller Page 0 ROM CRC test failed.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 184,
+    "description": "Internal diagnostics: main microcontroller Page FROM CRC test failed.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 185,
+    "description": "Internal diagnostics: feedback microcontroller ROM CRC test failed.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 189,
+    "description": "Software malfunction: display_state value outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 199,
+    "description": "Internal diagnostics: main and feedback microcontrollers are not compatible.",
+    "action": "Refer to Correcting IC U6 Malfunctions and IC U3 Malfunctions as specified by the manual."
+  },
+  {
+    "code": 202,
+    "description": "Internal diagnostics: main microcontroller watchdog test failed.",
+    "action": "Refer to Correcting IC U3 Malfunctions."
+  },
+  {
+    "code": 206,
+    "description": "Software malfunction: doserr_test_state value outside state range.",
+    "action": "Turn off and on; if it reappears, record the number and contact the Valleylab service center."
+  },
+  {
+    "code": 207,
+    "description": "Software malfunction: doserr_test_state value in sub_doserr_test outside state range.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 208,
+    "description": "Main microcontroller timer interrupt failed.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 209,
+    "description": "Feedback microcontroller timer interrupt failed.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 210,
+    "description": "Software malfunction: data_type value outside state range.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 211,
+    "description": "Software malfunction: which_data value outside state range.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 212,
+    "description": "Generator not calibrated.",
+    "action": "Refer to Correcting Battery-Backed RAM Malfunctions; calibrate as specified by the manual."
+  },
+  {
+    "code": 213,
+    "description": "Internal diagnostics: firmware not compatible with hardware.",
+    "action": "Refer to Correcting IC U6 and IC U3 Malfunctions."
+  },
+  {
+    "code": 215,
+    "description": "Internal diagnostics: real-time clock chip (U1) not compatible with firmware.",
+    "action": "Follow the manual procedure; control board replacement/calibration may be required."
+  },
+  {
+    "code": 216,
+    "description": "Internal memory battery exhausted.",
+    "action": "Replace the battery according to Section 7, then calibrate the generator; if the alarm reappears, contact the Valleylab service center."
+  },
+  {
+    "code": 220,
+    "description": "Feedback microcontroller unable to access KEY_REQ_SEM semaphore.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 221,
+    "description": "Feedback microcontroller unable to access GEN_SEM semaphore.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 224,
+    "description": "Internal diagnostics: calibration data checksum error on feedback microcontroller.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 226,
+    "description": "Feedback microcontroller unable to access FEEDBACK_SEM semaphore.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 232,
+    "description": "Feedback microcontroller unable to access KEY_ACTIVE_SEM semaphore.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 246,
+    "description": "Feedback microcontroller unable to access FEEDBACK_SEM semaphore.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 247,
+    "description": "Feedback microcontroller unable to access ECON_SEM semaphore.",
+    "action": "Refer to Correcting IC U6 Malfunctions."
+  },
+  {
+    "code": 260,
+    "description": "Internal diagnostics: A/D conversion did not complete in allowed time.",
+    "action": "Replace the control board and calibrate according to the manual; if it reappears, contact the Valleylab service center."
+  },
+  {
+    "code": 261,
+    "description": "Software malfunction: delay time out of bounds on main microcontroller.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 262,
+    "description": "Software malfunction: delay time out of bounds on feedback microcontroller.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 270,
+    "description": "Software malfunction: data type in me_rtc_get() outside state range.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 271,
+    "description": "Software malfunction: data type in me_rtc_put() outside state range.",
+    "action": "Refer to the manual troubleshooting procedure."
+  },
+  {
+    "code": 451,
+    "description": "Internal temperature limit exceeded due to length of activation time.",
+    "action": "Turn off and on; verify adequate cooling, use the lowest power setting that achieves the desired effect, and limit activation times if possible."
+  }
+]
